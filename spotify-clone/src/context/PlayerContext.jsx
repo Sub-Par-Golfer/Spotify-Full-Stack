@@ -8,7 +8,7 @@ const PlayerContextProvider = ({ children }) => {
     const seekBg = useRef(null);
     const seekBar = useRef(null);
 
-    const url = 'https://spotify-full-stack-bznu.onrender.com/';
+    const url = 'https://spotify-full-stack-bznu.onrender.com';
 
     const [songsData, setSongsData] = useState([]);
     const [albumsData, setAlbumsData] = useState([]);
