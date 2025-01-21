@@ -8,7 +8,7 @@ const PlayerContextProvider = ({ children }) => {
     const seekBg = useRef(null);
     const seekBar = useRef(null);
 
-    const url = 'http://localhost:4000';
+    const url = 'https://spotify-full-stack-five.vercel.app/';
 
     const [songsData, setSongsData] = useState([]);
     const [albumsData, setAlbumsData] = useState([]);
